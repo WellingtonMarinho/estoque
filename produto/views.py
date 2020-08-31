@@ -3,7 +3,12 @@ from .models import Produto
 
 
 def produto_list(request):
-    template_name = 'produto_list.html'
     objects = Produto.objects.all()
     context = {'object_list': objects}
-    return render(request, template_name, context)
+    return render(request, 'produto_list.html', context)
+
+
+def produto_detail(request, pk):
+    object = Produto.objects.get(pk=pk)
+    context = {'object': object}
+    return render(request, 'produto_detail.html', context)
