@@ -5,3 +5,5 @@ venv
 *.sqlite3
 *.pyc
 *.py['code]
+*/migrations/
+*00
