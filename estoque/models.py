@@ -19,8 +19,10 @@ class Estoque(Base):
         ordering = ('-criado',)
 
     def __str__(self):
-        return str(self.pk)
+        return f'{self.pk} - {self.nf} - {self.criado.strftime("%d-%m-%Y")}'
 
+    def nef_formated(self):
+        return str(self.nf).zfill(3)
 
 class EstoqueItens(models.Model):
     estoque = models.ForeignKey(Estoque, on_delete=models.CASCADE)
@@ -33,3 +35,4 @@ class EstoqueItens(models.Model):
 
     def __str__(self):
         return f'{self.pk} - {self.estoque.pk} - {self.produto}'
+
