@@ -28,3 +28,7 @@ Como rodar o projeto?
 [emmet](https://emmet.io/)
 
 [start.html](https://github.com/JTruax/bootstrap-starter-template/blob/master/template/start.html)
+
+[https://github.com/jazzband/django-widget-tweaks](django-widget-tweaks)
+
+[Class Based View - ccbv.co.uk](https://ccbv.co.uk/)

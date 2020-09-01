@@ -12,3 +12,9 @@ def produto_detail(request, pk):
     object = Produto.objects.get(pk=pk)
     context = {'object': object}
     return render(request, 'produto_detail.html', context)
+
+
+def produto_add(request):
+    template_name = 'produto_form.html'
+    return render(request, template_name)
+
