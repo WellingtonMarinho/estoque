@@ -1,3 +1,5 @@
+Em desenvolvimento.
+
 Controle de Estoque
 Como rodar o projeto?
 
