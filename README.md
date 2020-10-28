@@ -1,4 +1,4 @@
-Em desenvolvimento.
+Em desenvolvimento.// Pausado por falta de tempo
 
 Controle de Estoque
 Como rodar o projeto?
